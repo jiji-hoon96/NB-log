@@ -1,20 +1,17 @@
-import { Helmet } from "react-helmet-async"
+import { Helmet } from "react-helmet-async";
 // containers
-import Hexagonal from 'containers/main/Hexagonal'
+import Hexagonal from "containers/main/Hexagonal";
 // components
-import Barcode from 'components/main/Barcode'
-import LargeText from 'components/main/LargeText'
 
 const MainPage = () => {
-	return (<>
-		<Helmet>
-			<title>NB#log - Main</title>
-		</Helmet>
+  return (
+    <>
+      <Helmet>
+        <title>NB#log - Main</title>
+      </Helmet>
+      <Hexagonal />
+    </>
+  );
+};
 
-		<Hexagonal />
-		<Barcode />
-		<LargeText message="SELECT" />
-	</>);
-}
-
-export default MainPage
+export default MainPage;
