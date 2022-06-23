@@ -43,6 +43,5 @@
 		"prop-types": "^15.7.2",
 		"redux-mock-store": "^1.5.4"
 	},
-	"license": "MIT",
-	"proxy": "http://localhost:5000"
+	"license": "MIT"
 }
